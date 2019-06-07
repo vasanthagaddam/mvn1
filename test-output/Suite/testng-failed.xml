@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Testinwindowsfirefox(failed)">
+    <parameter name="node" value="http://localhost:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNGPackage.CrossPlatFormTest">
+        <methods>
+          <include name="runInMultipleOsAndBrowsers"/>
+        </methods>
+      </class> <!-- testNGPackage.CrossPlatFormTest -->
+    </classes>
+  </test> <!-- Testinwindowsfirefox(failed) -->
+  <test name="Testinwindowschrome(failed)">
+    <parameter name="node" value="http://localhost:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNGPackage.CrossPlatFormTest">
+        <methods>
+          <include name="runInMultipleOsAndBrowsers"/>
+        </methods>
+      </class> <!-- testNGPackage.CrossPlatFormTest -->
+    </classes>
+  </test> <!-- Testinwindowschrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

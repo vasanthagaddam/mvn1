@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test name="testinchrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNGPackage.CrossCompatibilityTesting">
+        <methods>
+          <include name="runInMultiplebrowsers" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGPackage.CrossCompatibilityTesting -->
+    </classes>
+  </test> <!-- testinchrome(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
